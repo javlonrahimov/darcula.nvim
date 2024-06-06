@@ -6,6 +6,6 @@ return {
       GitSignsDelete = { fg = palette.git.delete.text },
     }
 
-    return require("utils.helpers").mergeTables(scheme, M)
+    return require("helpers.helpers").mergeTables(scheme, M)
   end
 }

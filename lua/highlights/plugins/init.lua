@@ -5,7 +5,7 @@ function M.apply(palette, scheme)
     "git-signs",
   }
 
-  local sch = require("utils.helpers").cloneTable(scheme)
+  local sch = require("helpers.helpers").cloneTable(scheme)
   for _, module in ipairs(plugin_modules) do
     sch = require("highlights.plugins." .. module).apply(palette, sch)
   end

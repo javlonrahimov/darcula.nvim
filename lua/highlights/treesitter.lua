@@ -2,7 +2,7 @@
 -- │                     treesitter                          │
 -- ╰─────────────────────────────────────────────────────────╯
 
-local helpers = require("utils.helpers")
+local helpers = require("helpers.helpers")
 
 local M = {}
 
