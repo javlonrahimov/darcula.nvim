@@ -116,6 +116,7 @@ function M.apply(palette, scheme)
     -- ╰─────────────────────────────────────────────────────────╯
 
     ["@lsp.mod.library.rust"] = { fg = palette.colors.purple },
+    ["@lsp.type.decorator.rust"] = {fg = palette.colors.orange },
 
     ["@lsp.type.property"] = { link = "@property" },
     ["@lsp.type.class"] = { fg = palette.colors.purple },
