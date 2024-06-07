@@ -110,20 +110,6 @@ function M.apply(palette, scheme)
     ["@markup.list"] = {},                                                        -- list markers
     ["@markup.list.checked"] = {},                                                -- checked todo-style list markers
     ["@markup.list.unchecked"] = {},                                              -- unchecked todo-style list markers
-
-    -- ╭─────────────────────────────────────────────────────────╮
-    -- │                           LSP                           │
-    -- ╰─────────────────────────────────────────────────────────╯
-
-    ["@lsp.mod.library.rust"] = { fg = palette.colors.purple },
-
-    ["@lsp.type.property"] = { link = "@property" },
-    ["@lsp.type.class"] = { fg = palette.colors.purple },
-
-    ["@lsp.typemod.interface.library"] = { link = "@lsp.typemod.struct.library" },
-    ["@lsp.typemod.method.consuming"] = { link = "Function" },
-    ["@lsp.typemod.namespace.library"] = { italic = true },
-    ["@lsp.typemod.struct.library"] = { fg = palette.colors.white },
   }
 
   return helpers.mergeTables(scheme, M_scheme)

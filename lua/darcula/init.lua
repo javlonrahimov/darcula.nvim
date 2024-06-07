@@ -6,6 +6,7 @@ return {
         local scheme = require("highlights.built-in-highlights").apply(palette, {})
         scheme = require("highlights.plugins").apply(palette, scheme)
         scheme = require("highlights.treesitter").apply(palette, scheme)
+        scheme = require("highlights.lsp").apply(palette, scheme)
 
         if vim.g.colors_name then vim.cmd.hi("clear") end
 
