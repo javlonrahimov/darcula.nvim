@@ -92,7 +92,7 @@ return {
       Number = { link = "Constant" },
       Float = { link = "Number" },
       Boolean = { link = "Constant" },
-      Character = { fg = palette.colors.white },
+      Character = { fg = palette.colors.darkgreen },
       String = { fg = palette.colors.darkgreen },
 
       Identifier = { fg = palette.colors.white },

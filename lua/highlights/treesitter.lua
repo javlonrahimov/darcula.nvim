@@ -33,8 +33,7 @@ function M.apply(palette, scheme)
     ["@variable"] = { fg = palette.colors.white },                                -- Any variable name that does not have another highlight
     ["@variable.builtin"] = { fg = palette.colors.purple, italic = true },        -- Variable names that are defined by the languages like `this` or `self`.
     ["@variable.member"] = { link = "Constant" },
-    ["@variable.parameter.builtin"] = { link = "Constant" },                      -- special parameters (e.g. _, it)
-
+    ["@variable.parameter.builtin"] = { link = "Constant" },                      -- special parame fg = palette.colors.purple
     ["@function"] = { link = "Function" },                                        -- function definitions
     ["@function.call"] = { link = "Function" },
     ["@function.builtin"] = { link = "Function", italic = true },                 -- built-in functions
